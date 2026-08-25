@@ -1,0 +1,15 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.log
