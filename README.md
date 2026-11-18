@@ -63,6 +63,21 @@ Quick access to frequently used applications:
 
 Application paths are configurable through `Variables.inc`.
 
+### ⚡ Floating Quick Launcher
+
+A separate floating launcher designed for quick access to frequently used development applications.
+
+Currently includes:
+
+- Visual Studio Code
+- Postman
+- OBS Studio
+- Windows Calculator
+
+The Quick Launcher features a compact interface, local PNG icons, a dark background, green accents, and draggable positioning.
+
+It can be opened through Rainmeter or from the `FAST MENU` button integrated into the main dashboard.
+
 ### 🎨 Visual Identity
 
 The interface uses the **Moosha Corp** logo as part of the project's visual identity.
@@ -99,9 +114,17 @@ DevMatrixDashboard/
 │
 ├── @Resources/
 │   ├── Images/
+│   │   ├── Icons/
+│   │   │   ├── calculator.png
+│   │   │   ├── obs.png
+│   │   │   ├── postman.png
+│   │   │   └── vscode.png
 │   │   └── MooshaCorp.png
 │   ├── Styles.inc
 │   └── Variables.inc
+│
+├── QuickLauncher/
+│   └── QuickLauncher.ini
 │
 ├── DevMatrix.ini
 ├── .gitignore
@@ -288,7 +311,6 @@ This project was created as a practical exercise to develop and reinforce skills
 
 Possible future improvements:
 
-- [ ] Floating Quick Launcher for development applications
 - [ ] Keyboard shortcut for Quick Launcher activation
 - [ ] Network monitoring
 - [ ] Internet connectivity indicator
@@ -309,7 +331,7 @@ Features will be added gradually while keeping the project lightweight and easy 
 
 **Current status:** Stable / In Development
 
-The current version focuses on providing a lightweight developer dashboard with basic system monitoring and application shortcuts.
+The current version provides a lightweight developer dashboard with basic system monitoring, application shortcuts, and a floating Quick Launcher.
 
 The project is being developed as a personal portfolio and learning project.
 
